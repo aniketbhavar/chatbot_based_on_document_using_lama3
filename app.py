@@ -13,6 +13,8 @@ import os
 load_dotenv()
 
 ## load the GROQ And OpenAI API KEY 
+GROQ_API_KEY="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"
+GOOGLE_API_KEY="AIzaSyD2ERzVsdpyx_pg3IqIhphYlLjQtY3pEQ0"
 groq_api_key=os.getenv('GROQ_API_KEY')
 os.environ["GOOGLE_API_KEY"]=os.getenv("GOOGLE_API_KEY")
 
